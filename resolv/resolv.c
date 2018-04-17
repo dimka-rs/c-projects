@@ -8,7 +8,7 @@ int main(int c, char **v)
 {
 	if(c != 2)
 	{
-		printf("Usage: resolv example.com\n");
+		printf("Usage: %s example.com\n", v[0]);
 		return -1;
 	}
 
